@@ -16,8 +16,4 @@ output "timescale_service_psql" {
   sensitive = true
 }
 
-// use the following to capture password:
-//terraform output timescale_service_password
-//terraform output timescale_service_psql
 
-//psql -d "postgres://tsdbadmin:ip00vkg6pe1jeasd@lpifmr8t11.ocssgijfrc.tsdb.cloud.timescale.com:32753/tsdb?sslmode=require"
